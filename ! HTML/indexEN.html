@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <link rel="icon" type="image/x-icon" href="../Images/Instagram_Icon.png">
+    <link rel="stylesheet" type="text/css" href="../!a CSS/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel= "stylesheet">
+</head>
+
+<body>
+    <!--===================iPhone Slideshow===================-->
+    <div class="iphone">
+        <div class="mySlides fade">
+            <img src="../Images/screenshot1.png" alt="Instagram Screenshot 1" class="fade1">
+        </div>
+        <div class="mySlides fade">
+            <img src="../Images/screenshot2.png" alt="Instagram Screenshot 2" class="fade2">
+        </div>
+        <div class="mySlides fade">
+            <img src="../Images/screenshot3.png" alt="Instagram Screenshot 3" class="fade3">
+        </div>
+        <div class="mySlides fade">
+            <img src="../Images/screenshot4.png" alt="Instagram Screenshot 4" class="fade4">
+        </div>
+    </div>
+    <!--===================Login Field===================-->
+    <div class="wrapper">
+        <div class="container">
+            <div class="logo"></div>
+            <form action="register.php" method="post">
+                <label id="emailLabel" for="email">Phone number, username, or email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input id="emailInput" type="text" name="email" required>
+
+                <label id="passwordLabel" for="password">Password</label>
+                <input id="passwordInput" type="password" name="password" required>
+                <button id="toggleButton" class="text-button" type="button" style="display:none;">Show</button>
+
+                <button type="submit">Log in</button>
+
+                <div class="separator">
+                    <span>OR</span>
+                </div>
+    <!--===================Facebook Button===================-->
+                <a href="https://www.facebook.com/login/" class="fbLogin">
+                    <img src="../Images/FacebookLogo.png" alt="Facebook-Logo" class="fbIcon">
+                    Log in with Facebook
+                </a>
+    <!--===================Forgot Passwort Button===================-->
+                <a href="https://www.instagram.com/accounts/password/reset/" class="forgotPassword">Forgot password?</a>
+            </form>
+        </div>
+    <!--===================SignUp Button===================-->
+        <div class="register-container">
+            <p>Don't have an account? <a href="https://www.instagram.com/accounts/emailsignup/" class="register-link">Sign up</a></p>
+        </div>
+    <!--===================Install Apps===================-->
+        <div class="app-install-container">
+            <p class="app-text">Get the app.</p>
+            <div class="app-buttons">
+                <a href="https://play.google.com/store/apps/details?id=com.instagram.android">
+                    <img src="../Images/GooglePlayEN.png" alt="Google Play" class="app-icon">
+                </a>
+                <a href="https://apps.microsoft.com/detail/9nblggh5l9xt">
+                    <img src="../Images/MicrosoftStoreEN.png" alt="Microsoft Store" class="app-icon microsoft-icon">
+                </a>
+            </div>
+        </div>
+    </div>
+    <!--===================Footer===================-->
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="https://about.meta.com/" target="_blank" rel="noopener noreferrer">Meta</a></li>
+                <li><a href="https://about.instagram.com/" target="_blank" rel="noopener noreferrer">About</a></li>
+                <li><a href="https://about.instagram.com/blog/" target="_blank" rel="noopener noreferrer">Blog</a></li>
+                <li><a href="https://about.instagram.com/about-us/careers" target="_blank" rel="noopener noreferrer">Jobs</a></li>
+                <li><a href="https://help.instagram.com/" target="_blank" rel="noopener noreferrer">Help</a></li>
+                <li><a href="https://developers.facebook.com/docs/instagram" target="_blank" rel="noopener noreferrer">API</a></li>
+                <li><a href="https://www.instagram.com/legal/privacy/" target="_blank" rel="noopener noreferrer">Privacy</a></li>
+                <li><a href="https://www.instagram.com/privacy/cookie_settings/" target="_blank" rel="noopener noreferrer">Cookie-Settings</a></li>
+                <li><a href="https://www.instagram.com/legal/terms/" target="_blank" rel="noopener noreferrer">Terms</a></li>
+                <li><a href="https://www.instagram.com/explore/locations/" target="_blank" rel="noopener noreferrer">Locations</a></li>
+                <li><a href="https://www.instagram.com/web/lite/" target="_blank" rel="noopener noreferrer">Instagram Lite</a></li>
+                <li><a href="https://www.threads.net/" target="_blank" rel="noopener noreferrer">Threads</a></li>
+                <li><a href="https://www.facebook.com/help/instagram/261704639352628" target="_blank" rel="noopener noreferrer">Contact Uploading & Non-Users</a></li>
+                <li><a href="https://www.instagram.com/accounts/meta_verified/?entrypoint=web_footer" target="_blank" rel="noopener noreferrer">Meta Verified</a></li>
+            </ul>
+        </nav>
+    <!--===================Language Dropdown===================-->
+        <div>
+            <div class="language-dropdown">
+                <button class="language-btn">English ▼</button>
+                    <ul class="language-list">
+                    <li><a href="index.HTML">Deutsch</a></li>
+                    <li><a href="indexEN.html">English</a></li>
+                    <li><a href="indexFR.html">Français</a></li>
+                    <li><a href="indexIT.html">Italiano</a></li>
+                </ul>
+            </div>
+            <span>© 2025 Instagram from Meta</span>
+        </div>
+    </footer>
+
+    <!--===================JavaScript===================-->
+    <script src="../!a JavaScript/language_dropdown.js"></script>
+    <script src="../!a JavaScript/input_animation.js"></script>
+    <script src="../!a JavaScript/toggle_PasswordEN.js"></script>
+
+</body>
+
+</html>
