@@ -5,7 +5,7 @@ Connected with a database in MySQL Workbench.
 
 ## 🚀 **Progress**
 **95% Complete**  
-###################- 95%
+|###################-| 95%
 
 ### ❗ To-Do:
 - Finish the PHP file that sends an email when someone logs in.
